@@ -1,1 +1,0 @@
-# Community-Anti-Hack
