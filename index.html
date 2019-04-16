@@ -1,51 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="uk-light uk-background-secondary">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Community Anti-Cheat</title>
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-	<title>Community Anti-Cheat</title>
+    <link rel="stylesheet" href="assets/css/cah.css" />
+    <link rel="stylesheet" href="assets/css/uikit/uikit.min.css" />
 
-	<link rel="stylesheet" href="assets/css/cah.css">
-	<link rel="stylesheet" href="assets/css/uikit/uikit.min.css" />
+    <script src="assets/js/cah.js"></script>
+    <script src="assets/js/uikit/uikit.min.js" defer></script>
+    <script src="assets/js/uikit/uikit-icons.min.js" defer></script>
+  </head>
 
+  <nav uk-navbar class="uk-light uk-background-primary uk-navbar-left">
+    <ul class="uk-navbar-nav">
+      <li class="uk-active">
+        <a href="/"
+          ><span uk-icon="icon: home" class="uk-padding-small"></span>Hello</a
+        >
+      </li>
+      <li>
+        <a href="/pages/about.html"
+          ><span uk-icon="icon: info" class="uk-padding-small"></span>About</a
+        >
+      </li>
+      <li>
+        <a href="#"
+          ><span uk-icon="icon: cloud-download" class="uk-padding-small"></span
+          >Downloads</a
+        >
+        <div class="uk-navbar-dropdown">
+          <ul class="uk-nav uk-navbar-dropdown-nav">
+            <li>
+              <a href="#"
+                ><span
+                  uk-icon="icon: cog"
+                  class="uk-padding-small uk-padding-remove-vertical uk-padding-remove-left"
+                ></span
+                >Datapack</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><span
+                  uk-icon="icon: database"
+                  class="uk-padding-small uk-padding-remove-vertical uk-padding-remove-left"
+                ></span
+                >dManager</a
+              >
+            </li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+    <!-- Disabled cause I can't get it to work
+    <a class="uk-badge uk-padding-small cah-switcher" onclick="setTheme;"
+      >Theme Toggle</a
+    >
+    -->
+  </nav>
 
-	<script src="assets/js/cah.js" defer></script>
-	<script src="assets/js/uikit/uikit.min.js" defer></script>
-	<script src="assets/js/uikit/uikit-icons.min.js" defer></script>
-</head>
+  <body class="uk-container">
+    <h1>Community Anti-Cheat</h1>
 
-<nav uk-navbar class="uk-light uk-background-primary uk-navbar-left">
-	<ul class="uk-navbar-nav">
-		<li class="uk-active"><a href=""><span uk-icon="icon: home" class="uk-padding-small"></span>Hello</a></li>
-		<li>
-			<a href="#"><span uk-icon="icon: cloud-download" class="uk-padding-small"></span>Downloads</a>
-			<div class="uk-navbar-dropdown">
-				<ul class="uk-nav uk-navbar-dropdown-nav">
-					<li>
-						<a href="#"><span uk-icon="icon: cog"
-								class="uk-padding-small uk-padding-remove-vertical uk-padding-remove-left"></span>Datapack</a>
-					</li>
-					<li>
-						<a href="#"><span uk-icon="icon: database"
-								class="uk-padding-small uk-padding-remove-vertical uk-padding-remove-left"></span>dManager</a>
-					</li>
-				</ul>
-			</div>
-		</li>
-	</ul>
-	<a class="uk-badge uk-padding-small cah-switcher" onclick="themeChange();">Theme Toggle</a>
-</nav>
-
-<body class="uk-container">
-	<h1>Community Anti-Cheat</h1>
-
-	<p>
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni iure nobis
-		ea distinctio, saepe repudiandae perspiciatis quia, dolorem a reiciendis
-		obcaecati culpa unde. Placeat culpa ad nisi rerum! Nihil, inventore?
-	</p>
-</body>
-
+    <p>
+      The 1.14 Community Anti-Hack Datapack (CAD for short) is an open sourced
+      attempt to bypass the use of hacks (modded clients) by using commands to
+      thwart them. It is not possible to prevent hacks. However it is definitely
+      possible to detect them and run our own methods of stopping the offenders
+      from getting away with it. CAD is intended for anyone to be able to use
+      and modify at anytime! I have even included an uninstall function file to
+      remove CAD if anyone tries it out and does not want it.
+    </p>
+  </body>
 </html>
