@@ -7,7 +7,8 @@ execute if score @s coah.d.id matches ..-1 run scoreboard players operation @s c
 execute if score @s coah.d.data matches ..-1 run scoreboard players operation @s coah.d.data *= -1 coah.math
 
 # Subtract UUIDMost from UUIDLeast
-scoreboard players operation @s coah.d.id -= @s coah.d.data
+execute if score @s coah.d.id > @s coah.d.data run scoreboard players operation @s coah.d.id -= @s coah.d.data
+execute if score @s coah.d.id < @s coah.d.data store result score @s coah.d.id run scoreboard players operation @s coah.d.data -= @s coah.d.id
 
 # Reset dataorary score
 scoreboard players reset @s coah.d.data

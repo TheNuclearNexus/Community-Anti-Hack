@@ -3,7 +3,7 @@
 ### Extends com_anti_hack:setup/main
 
 # Run hacks
-function com_anti_hack:hack/gamemode
+execute unless entity @s[tag=coah.can_gm] run function com_anti_hack:hack/gamemode
 function com_anti_hack:hack/xray
 function com_anti_hack:hack/killaura
 function com_anti_hack:hack/speed
