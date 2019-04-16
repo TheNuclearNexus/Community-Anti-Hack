@@ -1,6 +1,7 @@
 # Timer objectives
 ## "coah.t.name"
 scoreboard objectives add coah.t.dia dummy
+scoreboard objectives add coah.t.jesus dummy
 
 # Action objectives
 ## "coah.a.action.name"
@@ -8,6 +9,9 @@ scoreboard objectives add coah.t.dia dummy
 scoreboard objectives add coah.a.m.dia minecraft.mined:minecraft.diamond_ore
 ### Used | "coah.a.u.name"
 ### Custom | "coah.a.c.name"
+scoreboard objectives add coah.a.c.walk minecraft.custom:minecraft.walk_one_cm
+scoreboard objectives add coah.a.c.sprint minecraft.custom:minecraft.sprint_one_cm
+scoreboard objectives add coah.a.c.jump minecraft.custom:minecraft.jump
 
 # Dummy objectives
 ### Messages | "coah.m.name"

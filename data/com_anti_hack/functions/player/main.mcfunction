@@ -7,6 +7,7 @@ function com_anti_hack:hack/xray
 function com_anti_hack:hack/killaura
 function com_anti_hack:hack/speed
 function com_anti_hack:hack/fly
+function com_anti_hack:hack/jesus
 
 tp @s[tag=coah.hacker] 0 150 0
 
