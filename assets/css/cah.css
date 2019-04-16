@@ -1,0 +1,12 @@
+html.transition,
+html.transition *,
+html.transition *:before,
+html.transition *:after {
+  transition: all 500ms !important;
+  transition-delay: 0 !important;
+}
+
+.cah-switcher {
+  position: absolute;
+  right: 15px;
+}

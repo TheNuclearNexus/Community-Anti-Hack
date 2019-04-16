@@ -16,7 +16,7 @@
 	<script src="assets/js/uikit/uikit-icons.min.js" defer></script>
 </head>
 
-<div uk-navbar class="uk-light uk-background-primary uk-navbar-left">
+<nav uk-navbar class="uk-light uk-background-primary uk-navbar-left">
 	<ul class="uk-navbar-nav">
 		<li class="uk-active"><a href=""><span uk-icon="icon: home" class="uk-padding-small"></span>Hello</a></li>
 		<li>
@@ -35,10 +35,9 @@
 			</div>
 		</li>
 	</ul>
-	<button class="uk-button uk-button-default uk-button-small uk-position-center-right cah-theme"
-		onclick="themeChange();">Theme
+	<button class="uk-button uk-button-default uk-button-small cah-switcher" onclick="themeChange();">Theme
 		Toggle</button>
-</div>
+</nav>
 
 <body class="uk-container">
 	<h1>Community Anti-Cheat</h1>
