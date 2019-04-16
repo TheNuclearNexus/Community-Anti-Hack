@@ -11,3 +11,6 @@ scoreboard players operation @s coah.d.id -= @s coah.d.data
 
 # Reset dataorary score
 scoreboard players reset @s coah.d.data
+
+#Give them a tag
+tag @s add coah.has_id
