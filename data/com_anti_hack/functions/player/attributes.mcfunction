@@ -1,3 +1,7 @@
+# com_anti_hack:player/attributes
+## Used to give players different attributes
+### Extends com_anti_hack:player/main
+
 # Is Player walking?
 tag @s remove coah.p.walk
 execute if score @s coah.a.c.walk matches 1.. run tag @s add coah.p.walk

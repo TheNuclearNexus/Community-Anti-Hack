@@ -28,3 +28,10 @@ scoreboard players set -1 coah.math -1
 scoreboard players set 2 coah.math 2
 scoreboard players set 10 coah.math 10
 scoreboard players set 100 coah.math 100
+
+# Trigger objectives
+## Admin | "coah.a.name"
+scoreboard objectives add coah.a.tp trigger
+scoreboard objectives add coah.a.findUser trigger
+scoreboard objectives add coah.a.allUsers trigger
+## Default | "coah.d.name"

@@ -2,6 +2,7 @@
 ## Used to run player related functions
 ### Extends com_anti_hack:setup/main
 
+# Run hacks
 function com_anti_hack:hack/gamemode
 function com_anti_hack:hack/xray
 function com_anti_hack:hack/killaura
@@ -9,13 +10,23 @@ function com_anti_hack:hack/speed
 function com_anti_hack:hack/fly
 function com_anti_hack:hack/jesus
 
+# Hacker punishment
+## TP
 tp @s[tag=coah.hacker] 0 150 0
-
+## Gamemode
 gamemode adventure @s[tag=coah.hacker]
-
+## Send message to hacker
 scoreboard players set @s[tag=coah.hacker] coah.m.hack 1
 tellraw @s[tag=coah.hacker,scores={coah.m.hack=1}] [{"text":"ANTI-CHEAT> ","color":"light_gray","bold":false},{"text":"You have been auto-flagged for using hacks. You will be unable to play until an Admin fixes your state or otherwise bans you. If you are an admin yourself, don’t forget to [/tag yourname add coah.admin] to regain control.","color":"red","bold":false}]
 scoreboard players set @s[tag=coah.hacker] coah.m.hack 2
-scoreboard players set @s[tag=!coah.admin] coah.m.hack 0
 
+# Reset coah.m.hack for all admins
+scoreboard players set @s[tag=!coah.hacker] coah.m.hack 0
+
+# Basic Player things
+## Assign Unique ID
 execute unless entity @s[tag=coah.has_id] run function com_anti_hack:player/give_id
+## Admin commands
+execute if entity @s[tag=coah.admin] run function com_anti_hack:admin/commands/main
+## Player attributes
+function com_anti_hack:player/attributes

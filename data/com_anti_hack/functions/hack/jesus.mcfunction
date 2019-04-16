@@ -1,3 +1,7 @@
+# com_anti_hack:hack/jesus
+## Used to detect jesus hacks
+### Extends com_anti_hack:player/main
+
 tag @s remove coah.jesus
 execute if entity @s[gamemode=!creative,gamemode=!spectator] unless entity @s[nbt={RootVehicle:{Entity:{id:"minecraft:boat"}}}] if block ~ ~-1 ~ water if block ~1 ~-1 ~ water if block ~-1 ~-1 ~ water if block ~ ~-1 ~1 water if block ~ ~-1 ~-1 water if block ~ ~0.1 ~ air run tag @s add coah.jesus
 scoreboard players add @s[tag=coah.jesus] coah.t.jesus 1
