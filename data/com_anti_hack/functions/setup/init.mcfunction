@@ -20,6 +20,10 @@ scoreboard objectives add coah.m.xray dummy
 ### Data | "coah.d.name"
 scoreboard objectives add coah.d.id dummy
 scoreboard objectives add coah.d.data dummy
+#### Temp Position
+scoreboard objectives add coah.d.tempX dummy
+scoreboard objectives add coah.d.tempY dummy
+scoreboard objectives add coah.d.tempZ dummy
 ### Math | "coah.math"
 scoreboard objectives add coah.math dummy
 

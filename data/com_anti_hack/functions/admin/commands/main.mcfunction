@@ -7,3 +7,6 @@ execute if score @s coah.a.tp matches 1.. run function com_anti_hack:admin/comma
 
 scoreboard players enable @s coah.a.allUsers
 execute if score @s coah.a.allUsers matches 1.. run function com_anti_hack:admin/commands/list_users
+
+scoreboard players enable @s coah.a.findUser
+execute if score @s coah.a.findUser matches 1.. run function com_anti_hack:admin/commands/get_user
