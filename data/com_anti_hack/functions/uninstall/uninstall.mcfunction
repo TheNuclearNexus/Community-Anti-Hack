@@ -12,6 +12,7 @@ scoreboard objectives remove coah.a.m.dia
 scoreboard objectives remove coah.a.c.walk
 scoreboard objectives remove coah.a.c.sprint
 scoreboard objectives remove coah.a.c.jump
+scoreboard objectives remove coah.a.c.jump1
 
 # Dummy objectives
 ### Messages | "coah.m.name"
@@ -20,6 +21,8 @@ scoreboard objectives remove coah.m.xray
 ### Data | "coah.d.name"
 scoreboard objectives remove coah.d.id
 scoreboard objectives remove coah.d.data
+scoreboard objectives remove coah.d.y
+scoreboard objectives remove coah.d.y1
 #### Temp Position
 scoreboard objectives remove coah.d.tempX
 scoreboard objectives remove coah.d.tempY
@@ -44,3 +47,4 @@ tag @s[tag=coah.p.walk] remove coah.p.walk
 tag @s[tag=coah.p.sprint] remove coah.p.sprint
 tag @s[tag=coah.p.jump] remove coah.p.jump
 tag @s[tag=coah.has_id] remove coah.has_id
+tag @s[tag=coah.step] remove coah.step
