@@ -12,6 +12,7 @@ scoreboard objectives add coah.a.m.dia minecraft.mined:minecraft.diamond_ore
 scoreboard objectives add coah.a.c.walk minecraft.custom:minecraft.walk_one_cm
 scoreboard objectives add coah.a.c.sprint minecraft.custom:minecraft.sprint_one_cm
 scoreboard objectives add coah.a.c.jump minecraft.custom:minecraft.jump
+scoreboard objectives add coah.a.c.jump1 minecraft.custom:minecraft.jump
 
 # Dummy objectives
 ### Messages | "coah.m.name"
@@ -20,6 +21,8 @@ scoreboard objectives add coah.m.xray dummy
 ### Data | "coah.d.name"
 scoreboard objectives add coah.d.id dummy
 scoreboard objectives add coah.d.data dummy
+scoreboard objectives add coah.d.y dummy
+scoreboard objectives add coah.d.y1 dummy
 #### Temp Position
 scoreboard objectives add coah.d.tempX dummy
 scoreboard objectives add coah.d.tempY dummy
