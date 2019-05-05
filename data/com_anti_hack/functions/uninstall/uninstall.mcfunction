@@ -2,6 +2,7 @@
 ## "coah.t.name"
 scoreboard objectives remove coah.t.dia
 scoreboard objectives remove coah.t.jesus
+scoreboard objectives remove coah.t.nofall
 
 # Action objectives
 ## "coah.a.action.name"
@@ -23,6 +24,8 @@ scoreboard objectives remove coah.d.id
 scoreboard objectives remove coah.d.data
 scoreboard objectives remove coah.d.y
 scoreboard objectives remove coah.d.y1
+scoreboard objectives remove coah.d.onground
+scoreboard objectives remove coah.d.inair
 #### Temp Position
 scoreboard objectives remove coah.d.tempX
 scoreboard objectives remove coah.d.tempY
