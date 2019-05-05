@@ -10,6 +10,7 @@ function com_anti_hack:hack/speed
 function com_anti_hack:hack/fly
 function com_anti_hack:hack/jesus
 function com_anti_hack:hack/step
+function com_anti_hack:hack/nofall
 
 # Hacker punishment
 ## TP
