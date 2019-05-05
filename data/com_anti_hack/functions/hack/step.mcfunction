@@ -12,6 +12,8 @@ execute if score @s coah.d.y1 matches 500 if score @s coah.a.c.jump1 matches 0 r
 execute if score @s coah.d.y1 matches 600 if score @s coah.a.c.jump1 matches 0 run tag @s add coah.step
 execute if score @s coah.d.y1 matches 700 if score @s coah.a.c.jump1 matches 0 run tag @s add coah.step
 execute if score @s coah.d.y1 matches 800 if score @s coah.a.c.jump1 matches 0 run tag @s add coah.step
+execute if score @s coah.d.y1 matches 900 if score @s coah.a.c.jump1 matches 0 run tag @s add coah.step
+execute if score @s coah.d.y1 matches 1000 if score @s coah.a.c.jump1 matches 0 run tag @s add coah.step
 execute store result score @s coah.d.y run data get entity @s Pos[1] 100
 scoreboard players set @s[nbt={OnGround:1b}] coah.a.c.jump1 0
 execute if entity @s[tag=coah.step] as @s run function com_anti_hack:admin/notify_step
