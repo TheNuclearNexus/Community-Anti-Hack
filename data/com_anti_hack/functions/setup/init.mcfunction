@@ -2,6 +2,7 @@
 ## "coah.t.name"
 scoreboard objectives add coah.t.dia dummy
 scoreboard objectives add coah.t.jesus dummy
+scoreboard objectives add coah.t.nofall dummy
 
 # Action objectives
 ## "coah.a.action.name"
@@ -23,6 +24,8 @@ scoreboard objectives add coah.d.id dummy
 scoreboard objectives add coah.d.data dummy
 scoreboard objectives add coah.d.y dummy
 scoreboard objectives add coah.d.y1 dummy
+scoreboard objectives add coah.d.onground dummy
+scoreboard objectives add coah.d.inair dummy
 #### Temp Position
 scoreboard objectives add coah.d.tempX dummy
 scoreboard objectives add coah.d.tempY dummy
