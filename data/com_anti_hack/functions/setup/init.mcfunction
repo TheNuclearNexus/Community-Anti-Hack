@@ -1,6 +1,6 @@
 # Timer objectives
 ## "coah.t.name"
-scoreboard objectives add coah.t.dia dummy
+scoreboard objectives add coah.t.xray dummy
 scoreboard objectives add coah.t.jesus dummy
 scoreboard objectives add coah.t.nofall dummy
 
@@ -26,6 +26,9 @@ scoreboard objectives add coah.d.y dummy
 scoreboard objectives add coah.d.y1 dummy
 scoreboard objectives add coah.d.onground dummy
 scoreboard objectives add coah.d.inair dummy
+scoreboard objectives add coah.d.xraytotal dummy
+scoreboard objectives add coah.d.xraytimes dummy
+scoreboard objectives add coah.d.xrayavg dummy
 #### Temp Position
 scoreboard objectives add coah.d.tempX dummy
 scoreboard objectives add coah.d.tempY dummy
