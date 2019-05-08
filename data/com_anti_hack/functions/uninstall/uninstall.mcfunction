@@ -1,6 +1,6 @@
 # Timer objectives
 ## "coah.t.name"
-scoreboard objectives remove coah.t.dia
+scoreboard objectives remove coah.t.xray
 scoreboard objectives remove coah.t.jesus
 scoreboard objectives remove coah.t.nofall
 
@@ -26,6 +26,9 @@ scoreboard objectives remove coah.d.y
 scoreboard objectives remove coah.d.y1
 scoreboard objectives remove coah.d.onground
 scoreboard objectives remove coah.d.inair
+scoreboard objectives remove coah.d.xraytotal
+scoreboard objectives remove coah.d.xraytimes
+scoreboard objectives remove coah.d.xrayavg
 #### Temp Position
 scoreboard objectives remove coah.d.tempX
 scoreboard objectives remove coah.d.tempY
@@ -51,3 +54,4 @@ tag @s[tag=coah.p.sprint] remove coah.p.sprint
 tag @s[tag=coah.p.jump] remove coah.p.jump
 tag @s[tag=coah.has_id] remove coah.has_id
 tag @s[tag=coah.step] remove coah.step
+tag @s[tag=coah.xray] remove coah.xray
