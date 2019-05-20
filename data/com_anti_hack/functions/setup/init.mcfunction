@@ -3,12 +3,14 @@
 scoreboard objectives add coah.t.xray dummy
 scoreboard objectives add coah.t.jesus dummy
 scoreboard objectives add coah.t.nofall dummy
+scoreboard objectives add coah.t.step dummy
 
 # Action objectives
 ## "coah.a.action.name"
 ### Mined | "coah.a.m.name"
 scoreboard objectives add coah.a.m.dia minecraft.mined:minecraft.diamond_ore
 ### Used | "coah.a.u.name"
+scoreboard objectives add coah.a.u.chorus minecraft.used:minecraft.chorus_fruit
 ### Custom | "coah.a.c.name"
 scoreboard objectives add coah.a.c.walk minecraft.custom:minecraft.walk_one_cm
 scoreboard objectives add coah.a.c.sprint minecraft.custom:minecraft.sprint_one_cm
