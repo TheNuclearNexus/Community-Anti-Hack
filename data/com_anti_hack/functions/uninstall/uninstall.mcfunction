@@ -3,12 +3,14 @@
 scoreboard objectives remove coah.t.xray
 scoreboard objectives remove coah.t.jesus
 scoreboard objectives remove coah.t.nofall
+scoreboard objectives remove coah.t.step
 
 # Action objectives
 ## "coah.a.action.name"
 ### Mined | "coah.a.m.name"
 scoreboard objectives remove coah.a.m.dia
 ### Used | "coah.a.u.name"
+scoreboard objectives remove coah.a.u.chorus
 ### Custom | "coah.a.c.name"
 scoreboard objectives remove coah.a.c.walk
 scoreboard objectives remove coah.a.c.sprint
@@ -54,4 +56,5 @@ tag @s[tag=coah.p.sprint] remove coah.p.sprint
 tag @s[tag=coah.p.jump] remove coah.p.jump
 tag @s[tag=coah.has_id] remove coah.has_id
 tag @s[tag=coah.step] remove coah.step
+tag @s[tag=coah.notify_step] remove coah.notify_step
 tag @s[tag=coah.xray] remove coah.xray
